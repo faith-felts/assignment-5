@@ -79,6 +79,8 @@ Create comprehensive API documentation using Postman:
 - Save response examples for both success and error cases
 - Publish documentation as a public website
 
+Link: [https://documenter.getpostman.com/view/52355138/2sBXcEm1AW]
+
 ## Testing Your Implementation
 Use your Postman collection to test:
 - All CRUD operations work correctly
@@ -107,3 +109,5 @@ Start your development server:
 npm start
 ```
 Your API will be available at `http://localhost:3000`
+
+Documentation available at [https://documenter.getpostman.com/view/52355138/2sBXcEm1AW]
