@@ -259,15 +259,9 @@ app.delete('/api/menu/:id', (req, res) => {
 
 
 // Only start server when running directly, not when testing
-if (require.main === module) {
-    app.listen(port, () => {
-         console.log(`API server running at http://localhost:${port}`);
-    });
-}
 
-// Helper for tests: reset menu items to initial state
-app.resetMenuItems = () => {
-    menuItems = JSON.parse(JSON.stringify(initialMenuItems));
-};
+app.listen(port, () => {
+      console.log(`Restaurant API server running at http://localhost:${port}`);
+});
 
-module.exports = app;
+
